@@ -4,6 +4,8 @@ I want to detect end of uploading avatars & remove dialog after uploading avatar
 
 However, According to MATERIAL LICENSE AGREEMENT, modifying VRChat SDK is not allowed.
 
+This shows we can remove window after uploading avatars so I created tool to upload multiple avatar continuously with this technic: [ContinuousAvatarUploader](https://github.com/anatawa12/ContinuousAvatarUploader)
+
 ## How does this works?
 
 Instead of modifying VRChat SDK, this modifies (replaces) `UnityEditor.EditorUtility.DisplayDialog` function with [Harmony].
